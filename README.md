@@ -16,13 +16,11 @@ It will deploy the following resources.
 - Assign 1 Elastic IP to the EC2 instance
 - Create an Route53's A record to specified subdomain.
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
-
 ## How to set-up for the 1st time
 
 ### Initial setup on your computer or workstation
 
-This only requres once.
+These actions are only require to do once per device
 
 - Install npm (Please search how to install if you don't know)
 - [Install cdk](https://docs.aws.amazon.com/cdk/v2/guide/getting_started.html#getting_started_install)
@@ -31,6 +29,8 @@ This only requres once.
 It is also important to cleanup the code and update cdk packages afterwards.
 
 ### Initial setup on your AWS account
+
+These actions are only require to do once per AWS account.
 
 If you've never run CDK on your AWS account, you must run cdk bootsgrap command.
 
