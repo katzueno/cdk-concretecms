@@ -11,5 +11,6 @@ cdk.Tags.of(app).add(CONFIG.ec2Tag1Key, CONFIG.ec2Tag1Value, {
 });
 
 new CdkConcretecmsStack(app, CONFIG.stackName, {
+  description: CONFIG.stackDescription,
   env: {account: CONFIG.awsAccount, region: CONFIG.awsRegion},
 });

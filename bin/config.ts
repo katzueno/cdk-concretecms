@@ -10,6 +10,7 @@ export const CONFIG = {
     // **********
     // # CloudFormation Stack name
     "stackName": 'develop-example-com',
+    "stackDescription": 'Simple CDK to make a VPC and launch an EC2 instance with Amazon Linux 2023',
 
     // **********
     // # VPC, Subnet and Security Gateway
