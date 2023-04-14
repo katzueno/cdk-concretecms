@@ -85,7 +85,7 @@ export class CdkConcretecmsStack extends cdk.Stack {
     new r53.ARecord(this, 'ARecord', {
       zone: hostedZone,
       recordName: CONFIG.route53Subdomain,
-      target: r53.RecordTarget.fromIp(elasticIP.ref),
+      target: r53.RecordTarget.fromIpAddresses(elasticIp.ref),
       ttl: cdk.Duration.minutes(CONFIG.route53Ttl),
     });
   }
