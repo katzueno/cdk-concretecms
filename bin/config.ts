@@ -22,7 +22,7 @@ export const CONFIG = {
 
     // **********
     // # EC2 Instance Parameters
-    "ec2InstanceName" : "example.com"
+    "ec2InstanceName" : "example.com",
     // ## Get AMI Image ID via SSM parameter directly 
     // For Amazon Linux 2023, See https://docs.aws.amazon.com/linux/al2023/ug/get-started.html
     // - Intel Processor
