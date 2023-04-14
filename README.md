@@ -85,7 +85,7 @@ cd [path/to/project]
 cdk synth
 ```
 
-## STEP 4. Deplouing new resources
+### STEP 4. Deplouing new resources
 
 To launch EC2,
 
